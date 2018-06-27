@@ -3,5 +3,12 @@ copied from other sources across the internet.
 
 Some commands:
 
+```
 docker build -t mattsflask .
+```
+
+```
 docker run -p 7777:5000 mattsflask
+```
+
+Docker image in hub at: matthewwright/arm/simple-flask

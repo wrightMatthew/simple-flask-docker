@@ -1,0 +1,8 @@
+version: '2'
+services:
+  nomadclient:
+    build: .
+    image: matthewwright/armflask:latest
+
+    ports:
+      - 7777:5000

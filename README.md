@@ -11,4 +11,5 @@ docker build -t mattsflask .
 docker run -p 7777:5000 mattsflask
 ```
 
-Docker image in hub at: matthewwright/arm/simple-flask
+To run with docker-compose
+docker-compose up --build

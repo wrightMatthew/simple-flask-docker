@@ -2,7 +2,8 @@ version: '2'
 services:
   nomadclient:
     build: .
-    image: matthewwright/armflask:latest
+    image: matthewwright/arm-flask:latest
+    #image: matthewwright/x86-flask:latest
 
     ports:
-      - 7421:5000
+      - 7777:5000
